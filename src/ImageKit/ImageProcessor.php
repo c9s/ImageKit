@@ -14,7 +14,7 @@ if( ! function_exists('imagecreatefromgif') )
 
 class ImageException extends Exception {  }
 
-class ImageProcess
+class ImageProcessor
 {
 
     public $image;
