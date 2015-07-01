@@ -1,0 +1,22 @@
+{
+    "name": "corneltek/imagekit",
+    "authors": [
+        {
+            "name": "c9s",
+            "email": "yoanlin93+composer@gmail.com"
+        }
+    ],
+    "require": {
+        "corneltek/fileutil": "~1"
+    },
+    "require-dev": {
+        "corneltek/phpunit-testmore": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImageKit\\": "src/ImageKit/"
+        }
+    },
+    "license": "MIT",
+    "version": "1.0.0"
+}
